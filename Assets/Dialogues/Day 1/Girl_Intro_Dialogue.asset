@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9061e98228db78c46bf68bb82f19c988, type: 3}
+  m_Name: Girl_Intro_Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  Lines:
+  - Text: "Buenos d\xEDas. C\xF3mo dormiste?"
+    SpeakerName: Boy
+    Portrait: {fileID: -6080944147313101505, guid: ff5994df393d0d644a7774ef5aa43a97, type: 3}
+    typewriterEffect: {fileID: 0}
+    PreDelay: 0.3
+    PostDelay: 0.5
+  - Text: "Bien, hac\xEDa algo de fr\xEDo."
+    SpeakerName: Girl
+    Portrait: {fileID: 3476036182178032592, guid: 0df03a6c542b9904c97ed97bdd877b57, type: 3}
+    typewriterEffect: {fileID: 0}
+    PreDelay: 0.5
+    PostDelay: 0.3
+  - Text: 'Ahora te vas a resfriar canto e cabroncita sucia. '
+    SpeakerName: Boy
+    Portrait: {fileID: -6080944147313101505, guid: ff5994df393d0d644a7774ef5aa43a97, type: 3}
+    typewriterEffect: {fileID: 0}
+    PreDelay: 0.5
+    PostDelay: 0.3
+  - Text: Fuera de la house...
+    SpeakerName: Girl
+    Portrait: {fileID: 3476036182178032592, guid: 0df03a6c542b9904c97ed97bdd877b57, type: 3}
+    typewriterEffect: {fileID: 0}
+    PreDelay: 2
+    PostDelay: 0.3
+  - Text: YA!
+    SpeakerName: Girl
+    Portrait: {fileID: 3476036182178032592, guid: 0df03a6c542b9904c97ed97bdd877b57, type: 3}
+    typewriterEffect: {fileID: 0}
+    PreDelay: 0.3
+    PostDelay: 0.3
