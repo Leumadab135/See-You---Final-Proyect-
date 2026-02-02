@@ -7,6 +7,7 @@ public class DialogueUI : MonoBehaviour
 {
     [SerializeField] private GameObject _panel;
     [SerializeField] private Image _portraitImage;
+    [SerializeField] private Image _arrowImage;
     [SerializeField] private TextMeshProUGUI _nameText;
     [SerializeField] private TextMeshProUGUI _dialogueText;
 
@@ -24,6 +25,16 @@ public class DialogueUI : MonoBehaviour
     public void Hide()
     {
         _panel.SetActive(false);
+        _dialogueText.text = string.Empty;
+    }
+    public void ShowArrow()
+    {
+        _arrowImage.gameObject.SetActive(true);
+    }
+
+    public void HideArrow()
+    {
+        _arrowImage.gameObject.SetActive(false);
         _dialogueText.text = string.Empty;
     }
 

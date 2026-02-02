@@ -1,0 +1,32 @@
+using System.Collections;
+using UnityEngine;
+
+public class ZoneTransition : MonoBehaviour
+{
+    [SerializeField] private Transform _targetPoint;
+    [SerializeField] private Collider2D _newConfiner;
+    [SerializeField] private CameraConfinerController _cameraConfiner;
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (!other.CompareTag("Player")) return;
+
+        StartCoroutine(TransitionRoutine(other.transform));
+    }
+
+    private IEnumerator TransitionRoutine(Transform player)
+    {
+        GameStateController.Instance.SetState(GameState.Cinematic);
+
+        yield return FadeController.Instance.FadeOut();
+
+        player.position = _targetPoint.position;
+
+        _cameraConfiner.SetConfiner(_newConfiner);
+
+        yield return FadeController.Instance.FadeIn();
+
+        GameStateController.Instance.SetState(GameState.Exploration);
+    }
+}
+

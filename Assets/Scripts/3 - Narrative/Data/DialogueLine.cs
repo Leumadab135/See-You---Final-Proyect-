@@ -9,9 +9,13 @@ public class DialogueLine
     public string SpeakerName;
     public Sprite Portrait;
 
-    [Tooltip("Pausa antes de empezar a escribir")]
+    [Header("Delay Settings")]
     public float PreDelay;
-
-    [Tooltip("Pausa después de terminar la línea")]
     public float PostDelay;
+
+    [Header("Typewriter Settings")]
+    public float LetterDelay = 0.03f;
+    public float BounceAmount = 10f;
+    public float BounceSpeed = 5f;
+    public float SoundCooldown = 0.03f;
 }

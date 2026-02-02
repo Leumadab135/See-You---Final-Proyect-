@@ -6,10 +6,11 @@ public class TypewriterEffect : MonoBehaviour
 {
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private AudioClip _typeSound;
-    [SerializeField] private float _letterDelay = 0.03f;
-    [SerializeField] private float _soundCooldown = 0.03f;
-    [SerializeField] private float _bounceAmount = 5f;
-    [SerializeField] private float _bounceSpeed = 100f;
+    private float _letterDelay;
+    private float _bounceAmount;
+    private float _bounceSpeed;
+    private float _soundCooldown;
+
 
     private float _lastSoundTime;
 
@@ -18,8 +19,13 @@ public class TypewriterEffect : MonoBehaviour
 
     private Coroutine _coroutine;
 
-    public void Play(string text, TMP_Text textComponent)
+    public void Play(string text, TMP_Text textComponent, DialogueLine line)
     {
+        _letterDelay = line.LetterDelay;
+        _bounceAmount = line.BounceAmount;
+        _bounceSpeed = line.BounceSpeed;
+        _soundCooldown = line.SoundCooldown;
+
         if (_coroutine != null)
             StopCoroutine(_coroutine);
 

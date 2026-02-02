@@ -22,6 +22,7 @@ public class DialogueController : MonoBehaviour
         else Destroy(gameObject);
 
         _ui.Hide();
+        _ui.HideArrow();
     }
 
     private void Update()
@@ -91,8 +92,8 @@ public class DialogueController : MonoBehaviour
     }
     private IEnumerator PlayLineRoutine()
     {
+        _ui.HideArrow();
         _canAdvance = false;
-
         var line = _currentDialogue.Lines[_currentLineIndex];
 
         _ui.SetLine(line);
@@ -100,7 +101,7 @@ public class DialogueController : MonoBehaviour
         if (line.PreDelay > 0)
             yield return new WaitForSeconds(line.PreDelay);
 
-        _typewriter.Play(line.Text, _ui.DialogueText);
+        _typewriter.Play(line.Text, _ui.DialogueText, line);
 
         while (_typewriter.IsTyping)
             yield return null;
@@ -109,11 +110,14 @@ public class DialogueController : MonoBehaviour
             yield return new WaitForSeconds(line.PostDelay);
 
         _canAdvance = true;
+        _ui.ShowArrow();
+
     }
 
 
     private IEnumerator EndDialogueRoutine()
     {
+        _ui.HideArrow();
         _endingDialogue = true;
 
         _ui.Hide();

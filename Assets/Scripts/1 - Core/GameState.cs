@@ -3,5 +3,6 @@ public enum GameState
 {
     Exploration,
     Dialogue,
-    Cinematic
+    Cinematic,
+    Transition
 }
