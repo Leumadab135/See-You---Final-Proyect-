@@ -9,10 +9,12 @@ public class DialogueController : MonoBehaviour
     [SerializeField] private TypewriterEffect _typewriter;
 
     private DialogueData _currentDialogue;
+
     private int _currentLineIndex;
     private bool _endingDialogue;
     private bool _canAdvance;
 
+    public event System.Action<DialogueData> OnDialogueFinished;
 
     public bool IsActive { get; private set; }
 
@@ -125,9 +127,11 @@ public class DialogueController : MonoBehaviour
 
         yield return null; //Wait 1 frame
 
+        OnDialogueFinished?.Invoke(_currentDialogue);
         IsActive = false;
         _currentDialogue = null;
         _endingDialogue = false;
+
     }
 
 }

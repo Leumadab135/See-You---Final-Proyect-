@@ -12,7 +12,6 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _dialogueText;
 
     [SerializeField] private float _portraitFadeDuration = 0.2f;
-    [SerializeField] private float _showDuration = 0.2f;
 
     private Coroutine _portraitFadeRoutine;
     public TextMeshProUGUI DialogueText => _dialogueText;
