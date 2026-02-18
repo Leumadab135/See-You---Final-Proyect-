@@ -19,16 +19,16 @@ MonoBehaviour:
     PreDelay: 0.3
     PostDelay: 0.5
     LetterDelay: 0.03
-    BounceAmount: 10
+    BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
   - Text: Sure, it'll be 2'40$
-    SpeakerName: Boy
+    SpeakerName: Mc Dude
     Portrait: {fileID: -519526869793835419, guid: 7478834a9554a57419a2404a54f1242e, type: 3}
     PreDelay: 0.3
     PostDelay: 0.5
     LetterDelay: 0.03
-    BounceAmount: 10
+    BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
   - Text: Thanks.
@@ -37,6 +37,6 @@ MonoBehaviour:
     PreDelay: 0.3
     PostDelay: 0.5
     LetterDelay: 0.03
-    BounceAmount: 10
+    BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03

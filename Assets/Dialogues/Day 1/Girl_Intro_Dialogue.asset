@@ -19,7 +19,7 @@ MonoBehaviour:
     PreDelay: 0.3
     PostDelay: 0.5
     LetterDelay: 0.03
-    BounceAmount: 10
+    BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
   - Text: ...
@@ -28,7 +28,7 @@ MonoBehaviour:
     PreDelay: 1
     PostDelay: 0.5
     LetterDelay: 0.7
-    BounceAmount: 10
+    BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
   - Text: How did you sleep?
@@ -37,7 +37,7 @@ MonoBehaviour:
     PreDelay: 1
     PostDelay: 0.5
     LetterDelay: 0.03
-    BounceAmount: 10
+    BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
   - Text: ...
@@ -46,7 +46,7 @@ MonoBehaviour:
     PreDelay: 1
     PostDelay: 0.5
     LetterDelay: 0.7
-    BounceAmount: 10
+    BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
   - Text: (Okay...)
@@ -55,6 +55,6 @@ MonoBehaviour:
     PreDelay: 1
     PostDelay: 0.5
     LetterDelay: 0.03
-    BounceAmount: 10
+    BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03

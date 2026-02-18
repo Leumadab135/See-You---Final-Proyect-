@@ -19,7 +19,7 @@ MonoBehaviour:
     PreDelay: 0.3
     PostDelay: 0.5
     LetterDelay: 0.03
-    BounceAmount: 10
+    BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
   - Text: Yeah.
@@ -28,6 +28,6 @@ MonoBehaviour:
     PreDelay: 0.3
     PostDelay: 0.5
     LetterDelay: 0.03
-    BounceAmount: 10
+    BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03

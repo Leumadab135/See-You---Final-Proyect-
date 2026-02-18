@@ -21,7 +21,7 @@ public class FadeController : MonoBehaviour
 
     public IEnumerator FadeIn()
     {
-        yield return Fade(2f, 0f);
+        yield return Fade(10f, 0f);
     }
 
     private IEnumerator Fade(float from, float to)
