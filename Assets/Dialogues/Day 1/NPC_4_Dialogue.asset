@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9061e98228db78c46bf68bb82f19c988, type: 3}
+  m_Name: NPC_4_Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  Lines:
+  - Text: Nice day!
+    SpeakerName: Boy
+    Portrait: {fileID: -6080944147313101505, guid: ff5994df393d0d644a7774ef5aa43a97, type: 3}
+    PreDelay: 0.3
+    PostDelay: 0.5
+    LetterDelay: 0.03
+    BounceAmount: 10
+    BounceSpeed: 20
+    SoundCooldown: 0.03
+  - Text: Yeah.
+    SpeakerName: Lady
+    Portrait: {fileID: 1479890230366580151, guid: f8a66222d1fcd6b45965213afbae4cf2, type: 3}
+    PreDelay: 0.3
+    PostDelay: 0.5
+    LetterDelay: 0.03
+    BounceAmount: 10
+    BounceSpeed: 20
+    SoundCooldown: 0.03

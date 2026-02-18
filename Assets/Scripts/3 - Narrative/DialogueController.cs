@@ -12,7 +12,9 @@ public class DialogueController : MonoBehaviour
 
     private int _currentLineIndex;
     private bool _endingDialogue;
+    private bool _isClosing;
     private bool _canAdvance;
+    private bool _blockAdvanceThisFrame;
 
     public event System.Action<DialogueData> OnDialogueFinished;
 
@@ -32,13 +34,20 @@ public class DialogueController : MonoBehaviour
         if (!IsActive) return;
         if (!_canAdvance) return;
 
+        if (_blockAdvanceThisFrame)
+        {
+            _blockAdvanceThisFrame = false;
+            return;
+        }
+
         if (Input.GetKeyDown(KeyCode.Space))
             Advance();
     }
 
+
     public void StartDialogue(DialogueData dialogue)
     {
-        if (IsActive) return;
+        if (IsActive || _isClosing) return;
         StartCoroutine(StartDialogueRoutine(dialogue));
     }
 
@@ -80,15 +89,18 @@ public class DialogueController : MonoBehaviour
 
     private IEnumerator StartDialogueRoutine(DialogueData dialogue)
     {
+        _typewriter.Skip("", _ui.DialogueText);
+
         _currentDialogue = dialogue;
         _currentLineIndex = 0;
 
         IsActive = true;
+        _blockAdvanceThisFrame = true;
 
         _ui.Show();
         GameStateController.Instance.SetState(GameState.Dialogue);
 
-        yield return null; //Wait 1 frame
+        yield return null;
 
         PlayCurrentLine();
     }
@@ -119,6 +131,7 @@ public class DialogueController : MonoBehaviour
 
     private IEnumerator EndDialogueRoutine()
     {
+        _isClosing = true;
         _ui.HideArrow();
         _endingDialogue = true;
 
@@ -131,7 +144,7 @@ public class DialogueController : MonoBehaviour
         IsActive = false;
         _currentDialogue = null;
         _endingDialogue = false;
-
+        _isClosing = false;
     }
 
 }
