@@ -7,8 +7,8 @@ public class DayCountPanelEvent : NarrativeEvent
     [SerializeField] private GameObject _blackBackground;
     [SerializeField] private TextMeshProUGUI _dayText;
     [SerializeField] private AudioSource _dramaticSoundFX;
-    [SerializeField] private AudioSource _musicToPlay;
     [SerializeField] private AudioSource _musicToStop;
+    [SerializeField] private AudioSource _musicToPlay;
     protected override IEnumerator EventRoutine()
     {
         GameStateController.Instance.SetState(GameState.Cinematic);
@@ -33,24 +33,5 @@ public class DayCountPanelEvent : NarrativeEvent
             yield return null;
 
         GameStateController.Instance.SetState(GameState.Exploration);
-    }
-
-    public static IEnumerator FadeOut(AudioSource source, float duration)
-    {
-        if (source == null || !source.isPlaying)
-            yield break;
-
-        float startVolume = source.volume;
-        float t = 0f;
-
-        while (t < duration)
-        {
-            t += Time.deltaTime;
-            source.volume = Mathf.Lerp(startVolume, 0f, t / duration);
-            yield return null;
-        }
-
-        source.volume = 0f;
-        source.Stop();
     }
 }

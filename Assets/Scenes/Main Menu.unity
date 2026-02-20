@@ -472,30 +472,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2343116600762868778, guid: a2e05bc359d86174dac65787c6925429, type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2343116600762868778, guid: a2e05bc359d86174dac65787c6925429, type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.g
-      value: 0.9063895
-      objectReference: {fileID: 0}
-    - target: {fileID: 2343116600762868778, guid: a2e05bc359d86174dac65787c6925429, type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.r
-      value: 0.7216981
-      objectReference: {fileID: 0}
-    - target: {fileID: 2770718687152122062, guid: a2e05bc359d86174dac65787c6925429, type: 3}
-      propertyPath: m_Color.b
-      value: 0.6320754
-      objectReference: {fileID: 0}
-    - target: {fileID: 2770718687152122062, guid: a2e05bc359d86174dac65787c6925429, type: 3}
-      propertyPath: m_Color.g
-      value: 0.6320754
-      objectReference: {fileID: 0}
-    - target: {fileID: 2770718687152122062, guid: a2e05bc359d86174dac65787c6925429, type: 3}
-      propertyPath: m_Color.r
-      value: 0.6320754
-      objectReference: {fileID: 0}
     - target: {fileID: 3267223199555058261, guid: a2e05bc359d86174dac65787c6925429, type: 3}
       propertyPath: m_Name
       value: CanvasMainMenuController
@@ -651,34 +627,6 @@ PrefabInstance:
     - target: {fileID: 6354824990926917050, guid: a2e05bc359d86174dac65787c6925429, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8618522458739317357, guid: a2e05bc359d86174dac65787c6925429, type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8618522458739317357, guid: a2e05bc359d86174dac65787c6925429, type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.g
-      value: 0.9063895
-      objectReference: {fileID: 0}
-    - target: {fileID: 8618522458739317357, guid: a2e05bc359d86174dac65787c6925429, type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.r
-      value: 0.7216981
-      objectReference: {fileID: 0}
-    - target: {fileID: 8958065336204800171, guid: a2e05bc359d86174dac65787c6925429, type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8958065336204800171, guid: a2e05bc359d86174dac65787c6925429, type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8958065336204800171, guid: a2e05bc359d86174dac65787c6925429, type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.g
-      value: 0.9063895
-      objectReference: {fileID: 0}
-    - target: {fileID: 8958065336204800171, guid: a2e05bc359d86174dac65787c6925429, type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.r
-      value: 0.7216981
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

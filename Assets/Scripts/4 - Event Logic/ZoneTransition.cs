@@ -7,7 +7,6 @@ public class ZoneTransition : MonoBehaviour
     [SerializeField] private CameraConfinerController _cameraConfiner;
     [SerializeField] private Transform _targetPoint;
     [SerializeField] private Collider2D _newConfiner;
-    [SerializeField] private NarrativeEvent _event;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -25,9 +24,6 @@ public class ZoneTransition : MonoBehaviour
         player.position = _targetPoint.position;
 
         _cameraConfiner.SetConfiner(_newConfiner);
-
-        if (_event != null)
-            _event.Play();
 
         yield return FadeController.Instance.FadeIn();
 

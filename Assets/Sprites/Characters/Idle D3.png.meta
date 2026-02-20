@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 66c360dc84c2091468ed1e3da17c99c2
+guid: 00c0fcdeecb0da040a9ad66ff86a8fd2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3664804514667009772
-    second: Idle D3_0
+      213: -1869504922795332757
+    second: Idle D2_0
   - first:
-      213: -6312722605439614978
-    second: Idle D3_1
+      213: 7666042577068560584
+    second: Idle D2_1
   - first:
-      213: 6929429261842185209
-    second: Idle D3_2
+      213: -5465873030230171344
+    second: Idle D2_2
   - first:
-      213: 5634611964082113590
-    second: Idle D3_3
+      213: -5863015448149657669
+    second: Idle D2_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,89 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle D3_0
+      name: Idle D2_0
       rect:
         serializedVersion: 2
         x: 33
-        y: 72
+        y: 73
         width: 15
-        height: 17
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 419660cf5bff32dc0800000000000000
-      internalID: -3664804514667009772
+      spriteID: b6ba0f28d2f2e06e0800000000000000
+      internalID: -1869504922795332757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle D3_1
+      name: Idle D2_1
       rect:
         serializedVersion: 2
         x: 113
-        y: 72
+        y: 73
         width: 15
-        height: 17
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eff71319c34b468a0800000000000000
-      internalID: -6312722605439614978
+      spriteID: 8c0113f7b11436a60800000000000000
+      internalID: 7666042577068560584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle D3_2
+      name: Idle D2_2
       rect:
         serializedVersion: 2
         x: 33
-        y: 39
+        y: 40
         width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9fbfc4033374a2060800000000000000
-      internalID: 6929429261842185209
+      spriteID: 0312ebd30715524b0800000000000000
+      internalID: -5465873030230171344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle D3_3
+      name: Idle D2_3
       rect:
         serializedVersion: 2
         x: 113
-        y: 39
+        y: 40
         width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63cc7465ab9223e40800000000000000
-      internalID: 5634611964082113590
+      spriteID: bb77964738262aea0800000000000000
+      internalID: -5863015448149657669
       vertices: []
       indices: 
       edges: []
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8d76b89508e15cd4fbeb6b177d49d54c
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Idle D3_0: -3664804514667009772
-      Idle D3_1: -6312722605439614978
-      Idle D3_2: 6929429261842185209
-      Idle D3_3: 5634611964082113590
+      Idle D2_0: -1869504922795332757
+      Idle D2_1: 7666042577068560584
+      Idle D2_2: -5465873030230171344
+      Idle D2_3: -5863015448149657669
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

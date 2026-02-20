@@ -40,3 +40,12 @@ MonoBehaviour:
     BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
+  - Text: He grabbed the coffee and went back to his apartment.
+    SpeakerName: 
+    Portrait: {fileID: 0}
+    PreDelay: 0.3
+    PostDelay: 0.5
+    LetterDelay: 0.03
+    BounceAmount: 5
+    BounceSpeed: 20
+    SoundCooldown: 0.03

@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 00c0fcdeecb0da040a9ad66ff86a8fd2
+guid: 43d697c88e73f8b4cb295f0f1103a765
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1869504922795332757
-    second: Idle D2_0
+      213: -3483574656620730349
+    second: New Piskel-1.png (2)_0
   - first:
-      213: 7666042577068560584
-    second: Idle D2_1
+      213: 8764880915035204307
+    second: New Piskel-1.png (2)_1
   - first:
-      213: -5465873030230171344
-    second: Idle D2_2
+      213: 8531515200453542927
+    second: New Piskel-1.png (2)_2
   - first:
-      213: -5863015448149657669
-    second: Idle D2_3
+      213: -7086601326517297317
+    second: New Piskel-1.png (2)_3
+  - first:
+      213: 3624022239574867025
+    second: New Piskel-1.png (2)_4
+  - first:
+      213: -892184061700842386
+    second: New Piskel-1.png (2)_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -109,89 +115,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle D2_0
+      name: New Piskel-1.png (2)_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 73
-        width: 15
-        height: 16
+        x: 0
+        y: 0
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6ba0f28d2f2e06e0800000000000000
-      internalID: -1869504922795332757
+      spriteID: 318619b7e4bd7afc0800000000000000
+      internalID: -3483574656620730349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle D2_1
+      name: New Piskel-1.png (2)_1
       rect:
         serializedVersion: 2
-        x: 113
-        y: 73
-        width: 15
-        height: 16
+        x: 11
+        y: 0
+        width: 10
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c0113f7b11436a60800000000000000
-      internalID: 7666042577068560584
+      spriteID: 3da264ff0cc13a970800000000000000
+      internalID: 8764880915035204307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle D2_2
+      name: New Piskel-1.png (2)_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 40
-        width: 15
-        height: 16
+        x: 20
+        y: 0
+        width: 10
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0312ebd30715524b0800000000000000
-      internalID: -5465873030230171344
+      spriteID: f0401e67fd7066670800000000000000
+      internalID: 8531515200453542927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle D2_3
+      name: New Piskel-1.png (2)_3
       rect:
         serializedVersion: 2
-        x: 113
-        y: 40
-        width: 15
-        height: 16
+        x: 35
+        y: 0
+        width: 14
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb77964738262aea0800000000000000
-      internalID: -5863015448149657669
+      spriteID: b5fdf14d3a557ad90800000000000000
+      internalID: -7086601326517297317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Piskel-1.png (2)_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cb9f7a60d1b4230800000000000000
+      internalID: 3624022239574867025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Piskel-1.png (2)_5
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c5e08a2535e93f0800000000000000
+      internalID: -892184061700842386
       vertices: []
       indices: 
       edges: []
@@ -200,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8d76b89508e15cd4fbeb6b177d49d54c
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Idle D2_0: -1869504922795332757
-      Idle D2_1: 7666042577068560584
-      Idle D2_2: -5465873030230171344
-      Idle D2_3: -5863015448149657669
+      New Piskel-1.png (2)_0: -3483574656620730349
+      New Piskel-1.png (2)_1: 8764880915035204307
+      New Piskel-1.png (2)_2: 8531515200453542927
+      New Piskel-1.png (2)_3: -7086601326517297317
+      New Piskel-1.png (2)_4: 3624022239574867025
+      New Piskel-1.png (2)_5: -892184061700842386
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

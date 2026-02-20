@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9061e98228db78c46bf68bb82f19c988, type: 3}
+  m_Name: RoadSelfDialogueEvent
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  Lines:
+  - Text: 'I really dont remember doing something wrong.
+
+'
+    SpeakerName: Boy
+    Portrait: {fileID: -651480115421731316, guid: 27556fdc62236bc4db4b28d88ce4563d, type: 3}
+    PreDelay: 1
+    PostDelay: 0.5
+    LetterDelay: 0.02
+    BounceAmount: 2
+    BounceSpeed: 20
+    SoundCooldown: 0.01
+  - Text: Is just one of those days. It has to be.
+    SpeakerName: Boy
+    Portrait: {fileID: -651480115421731316, guid: 27556fdc62236bc4db4b28d88ce4563d, type: 3}
+    PreDelay: 0.3
+    PostDelay: 0.5
+    LetterDelay: 0.02
+    BounceAmount: 2
+    BounceSpeed: 20
+    SoundCooldown: 0.01

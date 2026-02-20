@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 4eb486126a841a04aa5a4b22b6c332ad
+guid: acc9ce8ef9aa7ac41ac0c5a0f6985eb7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 298472810453471959
-    second: Walk Girl.png_0
+      213: 7829284456398766335
+    second: SEE YOU_0
   - first:
-      213: 2189787583065114083
-    second: Walk Girl.png_1
+      213: -5921997800962612417
+    second: SEE YOU_1
   - first:
-      213: -8270213128845608887
-    second: Walk Girl.png_2
+      213: -8594951110863319434
+    second: SEE YOU_2
   - first:
-      213: 6385600889792684081
-    second: Walk Girl.png_3
+      213: -7029494816128793290
+    second: SEE YOU_3
   - first:
-      213: 813906573448373874
-    second: Walk Girl.png_4
+      213: -8774231725510680007
+    second: SEE YOU_4
   - first:
-      213: 2368068603776883786
-    second: Walk Girl.png_5
-  - first:
-      213: -895153805707639336
-    second: Walk Girl.png_6
-  - first:
-      213: -5707512439164599807
-    second: Walk Girl.png_7
+      213: 6827301985976624437
+    second: SEE YOU_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -67,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walk Girl.png_0
+      name: SEE YOU_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 72
-        width: 15
-        height: 16
+        x: 0
+        y: 0
+        width: 12
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d211329073642400800000000000000
-      internalID: 298472810453471959
+      spriteID: ff0c2255bb437ac60800000000000000
+      internalID: 7829284456398766335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk Girl.png_1
+      name: SEE YOU_1
       rect:
         serializedVersion: 2
-        x: 112
-        y: 72
-        width: 15
-        height: 15
+        x: 11
+        y: 0
+        width: 10
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e5482e6430b36e10800000000000000
-      internalID: 2189787583065114083
+      spriteID: f33aaf84066d0dda0800000000000000
+      internalID: -5921997800962612417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk Girl.png_2
+      name: SEE YOU_2
       rect:
         serializedVersion: 2
-        x: 192
-        y: 72
-        width: 15
-        height: 15
+        x: 20
+        y: 0
+        width: 10
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 948b26e0afc4a3d80800000000000000
-      internalID: -8270213128845608887
+      spriteID: 67e842fa08998b880800000000000000
+      internalID: -8594951110863319434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk Girl.png_3
+      name: SEE YOU_3
       rect:
         serializedVersion: 2
-        x: 267
-        y: 72
-        width: 19
-        height: 41
+        x: 35
+        y: 0
+        width: 14
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +196,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 130e2894d263e9850800000000000000
-      internalID: 6385600889792684081
+      spriteID: 635813665b7327e90800000000000000
+      internalID: -7029494816128793290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk Girl.png_4
+      name: SEE YOU_4
       rect:
         serializedVersion: 2
-        x: 33
-        y: 36
+        x: 48
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93229f7cbbaab3680800000000000000
+      internalID: -8774231725510680007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SEE YOU_5
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
         width: 13
-        height: 16
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,74 +240,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 276eebe57b39b4b00800000000000000
-      internalID: 813906573448373874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walk Girl.png_5
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 36
-        width: 13
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a4c50eb39d11dd020800000000000000
-      internalID: 2368068603776883786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walk Girl.png_6
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 36
-        width: 13
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d5057f3b56c393f0800000000000000
-      internalID: -895153805707639336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walk Girl.png_7
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 36
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10288702da7dac0b0800000000000000
-      internalID: -5707512439164599807
+      spriteID: 535a470dbf27fbe50800000000000000
+      internalID: 6827301985976624437
       vertices: []
       indices: 
       edges: []
@@ -300,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -310,14 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Walk Girl.png_0: 298472810453471959
-      Walk Girl.png_1: 2189787583065114083
-      Walk Girl.png_2: -8270213128845608887
-      Walk Girl.png_3: 6385600889792684081
-      Walk Girl.png_4: 813906573448373874
-      Walk Girl.png_5: 2368068603776883786
-      Walk Girl.png_6: -895153805707639336
-      Walk Girl.png_7: -5707512439164599807
+      SEE YOU_0: 7829284456398766335
+      SEE YOU_1: -5921997800962612417
+      SEE YOU_2: -8594951110863319434
+      SEE YOU_3: -7029494816128793290
+      SEE YOU_4: -8774231725510680007
+      SEE YOU_5: 6827301985976624437
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
