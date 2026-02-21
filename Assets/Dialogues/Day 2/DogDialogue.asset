@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DogDialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   Lines:
-  - Text: He usually reacts.
+  - Text: 'He usually reacts. '
     SpeakerName: Boy
     Portrait: {fileID: -6080944147313101505, guid: ff5994df393d0d644a7774ef5aa43a97, type: 3}
     PreDelay: 0.3
@@ -22,7 +22,7 @@ MonoBehaviour:
     BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
-  - Text: Guess not today.
+  - Text: 'Guess not today. '
     SpeakerName: Boy
     Portrait: {fileID: -6080944147313101505, guid: ff5994df393d0d644a7774ef5aa43a97, type: 3}
     PreDelay: 0.3

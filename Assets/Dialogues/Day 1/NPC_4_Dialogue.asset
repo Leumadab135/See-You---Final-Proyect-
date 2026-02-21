@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_4_Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   Lines:
-  - Text: Nice day!
+  - Text: 'Nice day! '
     SpeakerName: Boy
     Portrait: {fileID: -6080944147313101505, guid: ff5994df393d0d644a7774ef5aa43a97, type: 3}
     PreDelay: 0.3
@@ -22,7 +22,7 @@ MonoBehaviour:
     BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
-  - Text: Yeah.
+  - Text: 'Yeah. '
     SpeakerName: Lady
     Portrait: {fileID: 1479890230366580151, guid: f8a66222d1fcd6b45965213afbae4cf2, type: 3}
     PreDelay: 0.3

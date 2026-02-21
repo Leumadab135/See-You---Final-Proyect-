@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Girl_Intro_Dialogue D3
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   Lines:
-  - Text: ...
+  - Text: '... '
     SpeakerName: Girl
     Portrait: {fileID: 3476036182178032592, guid: 0df03a6c542b9904c97ed97bdd877b57, type: 3}
     PreDelay: 1

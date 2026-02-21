@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_1_Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   Lines:
-  - Text: Hi, Do you know if the bus is delayed?
+  - Text: 'Hi, Do you know if the bus is delayed? '
     SpeakerName: Boy
     Portrait: {fileID: -6080944147313101505, guid: ff5994df393d0d644a7774ef5aa43a97, type: 3}
     PreDelay: 0.3
@@ -22,7 +22,7 @@ MonoBehaviour:
     BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
-  - Text: I don't know.
+  - Text: 'I don''t know. '
     SpeakerName: Gentleman
     Portrait: {fileID: -5929264338959173028, guid: 4160b75b5c230d14c86830cb4423a52c, type: 3}
     PreDelay: 0.3
@@ -31,7 +31,7 @@ MonoBehaviour:
     BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
-  - Text: (I could take a shortcut through the park.)
+  - Text: '(I could take a shortcut through the park.) '
     SpeakerName: Boy
     Portrait: {fileID: -6080944147313101505, guid: ff5994df393d0d644a7774ef5aa43a97, type: 3}
     PreDelay: 0.3

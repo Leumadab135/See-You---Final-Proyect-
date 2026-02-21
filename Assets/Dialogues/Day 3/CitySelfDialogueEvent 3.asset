@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CitySelfDialogueEvent 3
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   Lines:
-  - Text: Everything's closed...
+  - Text: 'Everything''s closed... '
     SpeakerName: Boy
     Portrait: {fileID: -651480115421731316, guid: 27556fdc62236bc4db4b28d88ce4563d, type: 3}
     PreDelay: 0.3
@@ -22,7 +22,7 @@ MonoBehaviour:
     BounceAmount: 2
     BounceSpeed: 20
     SoundCooldown: 0.01
-  - Text: He came back empty-handed.
+  - Text: 'He came back empty-handed. '
     SpeakerName: 
     Portrait: {fileID: 0}
     PreDelay: 0.3

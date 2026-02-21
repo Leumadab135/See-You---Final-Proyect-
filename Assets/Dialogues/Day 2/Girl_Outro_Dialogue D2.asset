@@ -22,7 +22,7 @@ MonoBehaviour:
     BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
-  - Text: ...
+  - Text: '... '
     SpeakerName: Girl
     Portrait: {fileID: 3476036182178032592, guid: 0df03a6c542b9904c97ed97bdd877b57, type: 3}
     PreDelay: 1
@@ -40,7 +40,7 @@ MonoBehaviour:
     BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
-  - Text: ...
+  - Text: '... '
     SpeakerName: Girl
     Portrait: {fileID: 3476036182178032592, guid: 0df03a6c542b9904c97ed97bdd877b57, type: 3}
     PreDelay: 1
@@ -49,7 +49,7 @@ MonoBehaviour:
     BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
-  - Text: I know you heard me.
+  - Text: 'I know you heard me. '
     SpeakerName: Boy
     Portrait: {fileID: -6080944147313101505, guid: ff5994df393d0d644a7774ef5aa43a97, type: 3}
     PreDelay: 3
@@ -58,7 +58,7 @@ MonoBehaviour:
     BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
-  - Text: ...
+  - Text: '... '
     SpeakerName: Girl
     Portrait: {fileID: 3476036182178032592, guid: 0df03a6c542b9904c97ed97bdd877b57, type: 3}
     PreDelay: 1

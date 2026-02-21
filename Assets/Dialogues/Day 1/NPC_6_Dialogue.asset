@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_6_Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   Lines:
-  - Text: Can I get coffe for two, please.
+  - Text: 'Can I get coffe for two, please. '
     SpeakerName: Boy
     Portrait: {fileID: -6080944147313101505, guid: ff5994df393d0d644a7774ef5aa43a97, type: 3}
     PreDelay: 0.3
@@ -22,7 +22,7 @@ MonoBehaviour:
     BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
-  - Text: Sure, it'll be 2'40$
+  - Text: 'Sure, it''ll be 2''40$ '
     SpeakerName: Mc Dude
     Portrait: {fileID: -519526869793835419, guid: 7478834a9554a57419a2404a54f1242e, type: 3}
     PreDelay: 0.3
@@ -31,7 +31,7 @@ MonoBehaviour:
     BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
-  - Text: Thanks.
+  - Text: 'Thanks. '
     SpeakerName: Boy
     Portrait: {fileID: -6080944147313101505, guid: ff5994df393d0d644a7774ef5aa43a97, type: 3}
     PreDelay: 0.3
@@ -40,7 +40,7 @@ MonoBehaviour:
     BounceAmount: 5
     BounceSpeed: 20
     SoundCooldown: 0.03
-  - Text: He grabbed the coffee and went back to his apartment.
+  - Text: 'He grabbed the coffee and went back to his apartment. '
     SpeakerName: 
     Portrait: {fileID: 0}
     PreDelay: 0.3

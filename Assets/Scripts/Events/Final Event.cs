@@ -2,6 +2,7 @@ using System.Collections;
 using TMPro;
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FinalEvent : NarrativeEvent
 {
@@ -15,6 +16,7 @@ public class FinalEvent : NarrativeEvent
 
     [Header("Audio")]
     [SerializeField] private AudioSource _revelationFX;
+    [SerializeField] private AudioSource _parkAudio;
     [SerializeField] private AudioSource _musicToPlay;
     [SerializeField] private AudioSource _musicToStop;
 
@@ -23,6 +25,17 @@ public class FinalEvent : NarrativeEvent
     [SerializeField] private GameObject _title;
     [SerializeField] private DialogueData _dialogue;
 
+    [SerializeField] private TextMeshProUGUI _finalText;
+    [SerializeField] private float _fadeDuration = 10f;
+
+    [SerializeField] private Button _exitButton;
+
+    private void Awake()
+    {
+        Color color = _finalText.color;
+        color.a = 0f;
+        _finalText.color = color;
+    }
 
     protected override IEnumerator EventRoutine()
     {
@@ -30,10 +43,9 @@ public class FinalEvent : NarrativeEvent
 
         _revelationFX.Play();
 
-        yield return new WaitForSeconds(3f);
-        _musicToStop.Stop();
 
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(3.4f);
+        _musicToStop.Stop();
         _blackBackground.SetActive(true);
 
         yield return new WaitForSeconds(2f);
@@ -43,6 +55,8 @@ public class FinalEvent : NarrativeEvent
         yield return new WaitForSeconds(2f);
         _blackBackground.SetActive(false);
         yield return FadeController.Instance.FadeIn();
+        _parkAudio.Play();
+
 
         yield return new WaitForSeconds(3.6f);
         DialogueController.Instance.StartDialogue(_dialogue);
@@ -55,7 +69,15 @@ public class FinalEvent : NarrativeEvent
         StartCoroutine(PlayMusicWithFade());
 
         yield return new WaitForSeconds(0.5f);
+        _parkAudio.Stop();
         StartCoroutine(Title());
+
+        yield return new WaitForSeconds(10.5f);
+        _title.SetActive(false);
+        yield return StartCoroutine(FadeInText());
+
+        yield return new WaitForSeconds(5.5f);
+        _exitButton.gameObject.SetActive(true);
     }
 
     private IEnumerator PlayMusicWithFade()
@@ -96,15 +118,37 @@ public class FinalEvent : NarrativeEvent
         }
 
         time = 0f;
-
-        //while (time < duration / 2f)
-        //{
-        //    time += Time.deltaTime;
-        //    float progress = time / (duration / 2f);
-        //    titleTransform.localScale = Vector3.Lerp(targetScale, originalScale, progress);
-        //    yield return null;
-        //}
-
-        //titleTransform.localScale = originalScale;
     }
+
+    private IEnumerator FadeText(float targetAlpha)
+    {
+        float startAlpha = _finalText.color.a;
+        float time = 0f;
+
+        Color color = _finalText.color;
+
+        while (time < _fadeDuration)
+        {
+            time += Time.deltaTime;
+            float alpha = Mathf.Lerp(startAlpha, targetAlpha, time / _fadeDuration);
+
+            color.a = alpha;
+            _finalText.color = color;
+
+            yield return null;
+        }
+
+        color.a = targetAlpha;
+        _finalText.color = color;
+    }
+
+    private IEnumerator FadeInText()
+    {
+        yield return StartCoroutine(FadeText(1f));
+    }
+
+    //private IEnumerator FadeOutText()
+    //{
+    //    yield return StartCoroutine(FadeText(0f));
+    //}
 }

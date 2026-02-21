@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: BusSelfDialogueEvent
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   Lines:
-  - Text: 'I dont know why I keep trying.
-
-'
+  - Text: "I dont know why I keep trying. \n"
     SpeakerName: Boy
     Portrait: {fileID: -651480115421731316, guid: 27556fdc62236bc4db4b28d88ce4563d, type: 3}
     PreDelay: 0.3
