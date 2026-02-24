@@ -13,6 +13,7 @@ public class FinalEvent : NarrativeEvent
 
     [Header("Girl")]
     [SerializeField] private GameObject _girl;
+    [SerializeField] private DialogueData _dialogue;
 
     [Header("Audio")]
     [SerializeField] private AudioSource _revelationFX;
@@ -20,15 +21,14 @@ public class FinalEvent : NarrativeEvent
     [SerializeField] private AudioSource _musicToPlay;
     [SerializeField] private AudioSource _musicToStop;
 
-    [Header("Last settings")]
+    [Header("Final Scene")]
     [SerializeField] private GameObject _blackBackground;
     [SerializeField] private GameObject _title;
-    [SerializeField] private DialogueData _dialogue;
-
     [SerializeField] private TextMeshProUGUI _finalText;
     [SerializeField] private float _fadeDuration = 10f;
-
     [SerializeField] private Button _exitButton;
+
+
 
     private void Awake()
     {
@@ -41,10 +41,8 @@ public class FinalEvent : NarrativeEvent
     {
         GameStateController.Instance.SetState(GameState.Cinematic);
 
-        _revelationFX.Play();
-
-
         yield return new WaitForSeconds(3.4f);
+        _revelationFX.Play();
         _musicToStop.Stop();
         _blackBackground.SetActive(true);
 
@@ -76,7 +74,7 @@ public class FinalEvent : NarrativeEvent
         _title.SetActive(false);
         yield return StartCoroutine(FadeInText());
 
-        yield return new WaitForSeconds(5.5f);
+        yield return new WaitForSeconds(10f);
         _exitButton.gameObject.SetActive(true);
     }
 
@@ -104,7 +102,7 @@ public class FinalEvent : NarrativeEvent
         Transform titleTransform = _title.transform;
 
         Vector3 originalScale = titleTransform.localScale;
-        Vector3 targetScale = originalScale * 1.1f; // Crece 10%
+        Vector3 targetScale = originalScale * 1.3f;
 
         float duration = 20f;
         float time = 0f;

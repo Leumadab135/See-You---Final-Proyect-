@@ -15,13 +15,17 @@ public class ZoneTransition : MonoBehaviour
         StartCoroutine(TransitionRoutine(other.transform));
     }
 
-    private IEnumerator TransitionRoutine(Transform player)
+    private IEnumerator TransitionRoutine(Transform playerTransform)
     {
         GameStateController.Instance.SetState(GameState.Cinematic);
 
         yield return FadeController.Instance.FadeOut();
 
-        player.position = _targetPoint.position;
+        playerTransform.position = _targetPoint.position;
+
+        SpriteRenderer sr = playerTransform.GetComponent<SpriteRenderer>();
+        if (sr != null)
+            sr.flipX = false;
 
         _cameraConfiner.SetConfiner(_newConfiner);
 
